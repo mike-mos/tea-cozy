@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    opacity: 0.9;
+    color:seashell;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: black;
+    opacity: 0.9;
+    color:seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    text-align: center; 
+}
+
+/* Header */
+
+header {
+    display: flex;
+    padding: 0 10px;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+}
+
+nav a {
+    padding: 0 5px;
+}
+
+/* Main */
+
+main {
+    background: url("./img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text {
+    width: 100%;
+    padding: 10px 0;
+}
+
+ /* Section */
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.month {
+    padding: 50px 0 30px;
+    width: 1000px;
+}
+
+.pic-box {
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+
+ .pic img {
+    width: 300px;
+    height: 200px;
+ }
+
+.pic h4 {
+    padding-top: 10px;
+}
+/* Locations */
+
+.loco {
+    margin-top: 70px;
+    background: url("./img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    opacity: 1;
+    gap: 40px;
+}
+   
+.loco h2 {
+    width: 1200px;
+    background-color: transparent;
+    margin-top: 50px;
+}
+
+.locbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+}
+
+footer {
+    height: 200px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+footer h5 {
+    height: 10px;
+}
+
+.yeah {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
